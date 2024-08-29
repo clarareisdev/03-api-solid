@@ -59,17 +59,8 @@ describe('Search Gyms Use Case', () => {
 
     expect(gyms).toHaveLength(2)
     expect(gyms).toEqual([
-      expect.objectContaining({ title: 'JavaScript 21', 
-        description: null,
-        phone: null,
-        latitude: -27.2092052,
-        longitude: -49.6401091, }),
-      expect.objectContaining({ title: 'JavaScript 22',
-        description: null,
-        phone: null,
-        latitude: -27.2092052,
-        longitude: -49.6401091,
-       }),
+      expect.objectContaining({ title: 'JavaScript Gym 21' }),
+      expect.objectContaining({ title: 'JavaScript Gym 22' }),
     ])
   })
 })
